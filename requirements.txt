@@ -1,7 +1,5 @@
---no-cache-dir
-pip==25.3
-python-telegram-bot==13.14
-aiohttp==3.8.5
+python-telegram-bot
+aiohttp
 nest_asyncio
 requests
 Pillow
