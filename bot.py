@@ -45,8 +45,8 @@ COMFYUI_BASE    = os.environ.get("COMFYUI_BASE",    "https://606fb0af23994bc59ea
 PAYMENT_API_URL = os.environ.get("PAYMENT_API_URL", "https://payment.fw.com//now")
 PORT            = int(os.environ.get("PORT", 8443))   # Render 自动注入 PORT
 
-WEBHOOK_PATH    = "webhook"
-WEBHOOK_FULL    = f"{WEBHOOK_URL}/{WEBHOOK_PATH}"
+WEBHOOK_PATH    = ""
+WEBHOOK_FULL    = WEBHOOK_URL
 
 # ============================================================
 #  套餐 & 常量
